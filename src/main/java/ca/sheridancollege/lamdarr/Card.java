@@ -22,6 +22,6 @@ public class Card implements CardInterface {
 
     @Override
     public void displayCard(){
-
+        System.out.println("Rank: " + this.rank + ", Suit: " + this.suit);
     }
 }
